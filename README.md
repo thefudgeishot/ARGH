@@ -15,4 +15,11 @@ maW5kIGEgY2x1ZS4=
 If you are looking through this for hints you wont find any.
 But good job for trying
 
-Okay theres something... Theres a yellow frisbee at school in a room that you would not expected to find one. Find it and find a clue.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Thanks for the Inspiration *[Curiosity](https://github.com/sharkdp/curiosity)
+* Thanks for the existence of *[Gibbon](https://gibbonedu.org/)
