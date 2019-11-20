@@ -14,6 +14,8 @@ maW5kIGEgY2x1ZS4=
 ```
 If you are looking through this for hints you wont find any.
 But good job for trying
+## Running it
+if you want to run it you will have to use mamp so the appache server will run the .htaccess
 
 ## License
 
