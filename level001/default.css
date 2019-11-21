@@ -16,13 +16,9 @@ html, body {
     margin: 0;
 }
 
-img {
-  width: 60%;
-  height: auto;
-}
-
 body {
     background-color: #EAE2E3;
+    background-image: url("background.jpg");
     margin-left: 50px;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -60,5 +56,5 @@ pre {
     font-size: 30px;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0px 5px 10px #A2778B;
+    box-shadow: 0px 5px 10px #6F84EB;
 }
