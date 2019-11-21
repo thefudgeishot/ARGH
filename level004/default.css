@@ -18,6 +18,7 @@ html, body {
 
 body {
     background-color: #EAE2E3;
+    background-image: url("backgroudn.jpg");
     margin-left: 50px;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
