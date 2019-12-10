@@ -1,0 +1,155 @@
+/* If you are here to look for hints, move along.
+   This is really just a stylesheet.
+ */
+
+@import 'https://fonts.googleapis.com/css?family=Monoton|Raleway|Source+Code+Pro';
+
+/*
+  Fonts:
+  https://fonts.google.com/?selection.family=Monoton|Raleway|Source+Code+Pro
+
+  Color scheme:
+  http://www.colourlovers.com/palette/4322038/%E6%8A%98%E3%82%8A%E7%B4%99*%E7%BE%8E
+ */
+
+html, body {
+    margin: 0;
+}
+
+body {
+  background-color: #EAE2E3;
+  background-image: url("background.jpg");
+    margin-left: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+img {
+  width: 60%;
+  height: auto;
+}
+
+#banner {
+    line-height: 1.0;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-family: 'Monoton', cursive;
+    font-weight: 400;
+    font-size: 115px;
+    color: #38283C;
+    text-shadow: #BBA4A9 0px 0px 10px;
+}
+
+#y {
+    color: #5C5166;
+}
+
+a {
+    color: #38283C;
+    text-decoration: underline;
+}
+
+.big {
+    font-size: 48px;
+}
+
+pre {
+    width: 860px;
+    background-color: #38283C;
+    color: #EAE2E3;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px #6F84EB;
+}
+
+
+.button {
+    display: inline-block;
+    position: relative;
+    margin: 1em;
+    padding: 0.67em;
+    border: 2px solid #FFF;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 2em;
+    outline: none;
+    color: #FFF;
+    background: transparent;
+    font-family: 'raleway', sans-serif;
+    border-radius: 8px;
+    background-color: #6e3dad;
+}
+
+.button:before,
+.button:after {
+    content: '';
+    position: absolute;
+    top: 0.67em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+/* :before */
+
+.button:before {
+    content: attr(data-hover);
+    -webkit-transform: translate(-150%,0);
+    -moz-transform: translate(-150%,0);
+    -ms-transform: translate(-150%,0);
+    -o-transform: translate(-150%,0);
+    transform: translate(-150%,0);
+}
+
+/* :after */
+
+.button:after {
+    content: attr(data-active);
+    -webkit-transform: translate(150%,0);
+    -moz-transform: translate(150%,0);
+    -ms-transform: translate(150%,0);
+    -o-transform: translate(150%,0);
+    transform: translate(150%,0);
+}
+
+/* Span on :hover and :active */
+
+.button:hover span,
+.button:active span {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+    transform: scale(0.3);
+}
+
+/*
+    We show :before pseudo-element on :hover
+    and :after pseudo-element on :active
+*/
+
+.button:hover:before,
+.button:active:after {
+    opacity: 1;
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+}
+
+/*
+  We hide :before pseudo-element on :active
+*/
+
+.button:active:before {
+    -webkit-transform: translate(-150%,0);
+    -moz-transform: translate(-150%,0);
+    -ms-transform: translate(-150%,0);
+    -o-transform: translate(-150%,0);
+    transform: translate(-150%,0);
+
+}
