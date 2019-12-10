@@ -17,8 +17,7 @@ html, body {
 }
 
 body {
-  background-color: #EAE2E3;
-  background-image: url("background.jpg");
+    background-color: #EAE2E3;
     margin-left: 50px;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -53,14 +52,15 @@ a {
 }
 
 pre {
-    width: 860px;
+    width: 720px;
+    height: 160px;
     background-color: #38283C;
     color: #EAE2E3;
     font-family: 'Source Code Pro', monospace;
     font-size: 30px;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0px 5px 10px #6F84EB;
+    box-shadow: 0px 5px 10px #A2778B;
 }
 
 
